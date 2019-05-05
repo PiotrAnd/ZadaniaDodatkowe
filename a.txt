@@ -1,0 +1,4 @@
+Person{surname='Andzik', name='Mateusz', pesel='8312141234', startJob='2014.07.17', salary='2200.0'}
+Person{surname='Kowalski', name='Jan', pesel='8712141234', startJob='2011-07-17', salary='3200.0'}
+Person{surname='Nowak', name='Zbigniew', pesel='8909141234', startJob='2012.09.14', salary='3400.0'}
+Person{surname='Zonk', name='Tadeusz', pesel='8812141234', startJob='2011.01.02', salary='2800.0'}

@@ -1,0 +1,2 @@
+Ile jest 2+2?/4
+Ile jest 20+22?/42
