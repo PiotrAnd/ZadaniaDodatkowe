@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p  {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+</style>
+</head>
+<body>
+<div id="demo">test</div>
+<button onclick="test()">!</button>
+<input type="text" id="data"></input>
+
+<!--<h1>This is a heading</h1>-->
+<!--<p>This is a paragraph.</p>-->
+<!--<script src="myscripts.js"></script>-->
+<script>
+    function test(){
+    var x = document.getElementById("data").value;
+    <!--window.alert("test: " + x);-->
+    document.getElementById("demo").innerText = x;
+    }
+</script>
+</body>
+</html>

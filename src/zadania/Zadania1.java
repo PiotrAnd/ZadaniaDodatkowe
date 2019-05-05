@@ -11,7 +11,7 @@ public class Zadania1 {
     public static void main(String[] args) throws IOException {
         poleprostokąta();
         pi();
-       kwadratPI();
+        kwadratPI();
         objetoscKuli();
         dzielenie();
         dzieleniereszta();

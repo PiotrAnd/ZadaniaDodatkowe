@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+Hello World
+<p>This is some text in a paragraph.</p>
+
+<a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+<a href="https://www.w3schools.com" target="_blank">Visit W3Schools!</a>
+
+    <h1>This is heading1</h1>
+    <h2>This is heading2</h2>
+    <h3>This is heading3</h3>
+    <h4>This is heading4</h4>
+    <h5>This is heading5</h5>
+    <h6>This is heading6</h6>
+<script>
+    var tekst;
+    var liczba = prompt("Podaj liczbę");
+    if (liczba!=losowanie) {
+        tekst = "podana wartośc nie jest liczbą";
+    }
+    var losowanie = Math.floor(Math.random() * 2);
+    if (liczba == losowanie) {
+    tekst = "zgadłeś";
+    }
+    else if (liczba <losowanie) {
+        tekst = "za mało"
+    }
+    else if (liczba>losowanie) {
+        tekst = "za dużo"
+    }
+
+</script>
+
+
+<div >
+    <h3>This is a heading</h3>
+    <p>This is a paragraph</p>
+</div>
+<div>
+    <h3>This is a heading</h3>
+    <p>This is a paragraph</p>
+</div>
+<p>My mother has <span>blue</span> eyes.</p>
+<p>My mother has <span>brown</span> eyes.</p>
+
+<table style="width:30%" align="center">
+    <tr>
+        <td bgcolor="blue">Firstname</td>
+        <td bgcolor="blue">Lastname</td>
+        <td bgcolor="blue">Age</td>
+    </tr>
+    <tr>
+        <td bgcolor="yellow" >Jill</td>
+        <td bgcolor="yellow">Smith</td>
+        <td bgcolor="yellow">50</td>
+    </tr>
+    <tr>
+        <td bgcolor="green">Eve</td>
+        <td bgcolor="green">Jackson</td>
+        <td bgcolor="green">94</td>
+    </tr>
+    <form action="sendForm" method="post">
+        <label for="surname"> Nazwisko</label> <input type="text" name="nazwisko" id="surname"/>
+        <label>Login: <input type="text" placeholder="Email"/></label>
+        <label>Hasło</label> <input type="password" name="haslo"/>
+        <br /><br />
+        <input type="checkbox" name="checkbox" value="a"/> A
+        <input type="checkbox" name="checkbox" value="b"/> B
+        <input type="checkbox" name="checkbox" value="c"/> C
+        <br /><br />
+        <select name="select">
+            <option>Opcja 1</option>
+            <option>Opcja 2</option>
+            <option>Opcja 3</option>
+        </select>
+        <br /><br />
+        <button type="submit">Wyślij formularz</button>
+    </form>
+
+</table>
+<script scr="D:\Java\zadaniaKubiak\src\Html\myscripts.js"></script>
+</body>
+</html>
